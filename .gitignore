@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+secured-notepad-app/node_modules
+secured-notepad-app/.pnp
+secured-notepad-app/pnp.js
+
+# testing
+secured-notepad-app/coverage
+
+# production
+secured-notepad-app/build
+
+# misc
+secured-notepad-app/DS_Store
+secured-notepad-app/env.local
+secured-notepad-app/env.development.local
+secured-notepad-app/env.test.local
+secured-notepad-app/env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
